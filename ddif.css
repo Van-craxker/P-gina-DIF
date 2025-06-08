@@ -1,0 +1,140 @@
+.pantalla-bienvenida {
+  height: 100vh;
+  background: linear-gradient(to right, #cbd5ff, #e4d8ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.pantalla-bienvenida h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+}
+
+.pantalla-bienvenida p {
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+
+.pantalla-bienvenida button {
+  background-color: #6c63ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pantalla-bienvenida button:hover {
+  background-color: #574cd6;
+}
+
+
+     body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f0ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+  /* Animación para aparecer */
+  .fade-in {
+    animation: fadeIn 0.8s ease-in forwards;
+  }
+
+  /* Animación para desaparecer */
+  .fade-out {
+    animation: fadeOut 0.8s ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-10px); }
+  }
+
+    header {
+      background: linear-gradient(90deg, #cdb4db, #bde0fe);
+      color: #333;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      background-color: #e0c3fc;
+      text-align: center;
+      padding: 0.8rem;
+    }
+
+    nav a {
+      color: #4b0082;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #6a4c93;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    form {
+      background-color: aliceblue;
+      padding: 2rem;
+      border-radius: 12px;
+          border: 1px solid aliceblue;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    input, textarea, button {
+      width: 100%;
+      margin-top: 0.8rem;
+      padding: 0.4rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+
+    button {
+      background-color: #a2d2ff;
+      color: #222;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #bde0fe;
+    }
+
+    footer {
+      background-color: #e0c3fc;
+      color: #333;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }

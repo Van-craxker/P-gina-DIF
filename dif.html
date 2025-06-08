@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="ddif.css">
+    <title>Proyecto DIF</title>
+    </head>
+</head>
+<body>
+    <div id="pantalla-bienvenida" class="pantalla-bienvenida">
+    <h1>¡Bienvenido al DIF!</h1>
+    <p>Apoyando a nuestra comunidad con servicios integrales</p>
+    <button onclick="mostrarContenido()">Entrar</button>
+  </div>
+
+<header>
+  <h1>Desarrollo Integral de la Familia (DIF)</h1>
+  <p>Apoyando a las familias mexicanas con sensibilidad y compromiso</p>
+</header>
+
+<nav>
+  <a href="#servicios">Servicios Básicos</a>
+  <a href="#funciones">Funciones</a>
+  <a href="#programas">Programas</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="servicios">
+  <h2>Servicios Básicos</h2>
+  <ul>
+    <li>Atención médica general y preventiva.</li>
+    <li>Asistencia jurídica para mujeres, niños y adultos mayores.</li>
+    <li>Terapia psicológica individual, familiar y para menores.</li>
+    <li>Rehabilitación física y apoyo a personas con discapacidad.</li>
+    <li>Protección y defensa de derechos de la infancia.</li>
+  </ul>
+</section>
+
+<section id="funciones">
+  <h2>Funciones Principales</h2>
+  <ul>
+    <li>Proteger los derechos de niñas, niños y adolescentes.</li>
+    <li>Ofrecer asistencia social a personas en situación de vulnerabilidad.</li>
+    <li>Desarrollar programas de apoyo alimentario.</li>
+    <li>Promover la inclusión de personas con discapacidad.</li>
+    <li>Brindar servicios de adopción y acogimiento temporal.</li>
+  </ul>
+</section>
+
+<section id="programas">
+  <h2>Programas del DIF</h2>
+    <ul>
+        <li>Asistencia Alimentaria:</li>
+  <p>Distribución de alimentos y orientación nutricional en comunidades marginadas.</p>
+  <li>Discapacidad:</li>
+  <p>Terapias de rehabilitación, inclusión laboral y apoyo técnico.</p>
+  <li>Infancia Protegida:</li>
+  <p>Programas de cuidado infantil, albergues y atención a menores en riesgo.</p>
+  <li>Adultos Mayores:</li>
+  <p>Clubes de día, apoyo médico y programas de envejecimiento activo.</p>
+    </ul>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <form id="contactForm">
+    <input type="text" id="nombre" placeholder="Nombre" required />
+    <input type="email" id="email" placeholder="Correo electrónico" required />
+    <textarea id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div id="mensajesGuardados">
+    <h3>Mensajes recibidos:</h3>
+    <ul id="listaMensajes"></ul>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 DIF Nacional - Todos los derechos reservados</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
