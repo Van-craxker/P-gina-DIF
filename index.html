@@ -64,12 +64,18 @@
 
 <section id="contacto">
   <h2>Contacto</h2>
-  <form id="contactForm">
-    <input type="text" id="nombre" placeholder="Nombre" required />
-    <input type="email" id="email" placeholder="Correo electrónico" required />
-    <textarea id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
-    <button type="submit">Enviar</button>
-  </form>
+  <form action="https://formspree.io/f/mdkgzgaj" method="POST">
+  <label for="nombre">Nombre:</label>
+  <input type="text" name="nombre" id="nombre" required>
+
+  <label for="correo">Correo:</label>
+  <input type="email" name="correo" id="correo" required>
+
+  <label for="mensaje">Mensaje:</label>
+  <textarea name="mensaje" id="mensaje" required></textarea>
+
+  <button type="submit">Enviar mensaje</button>
+</form>
 
   <div id="mensajesGuardados">
     <h3>Mensajes recibidos:</h3>
